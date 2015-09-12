@@ -8,8 +8,8 @@ import (
 )
 
 var persons = map[string]string{
-	"87040609075": "Michał",
-	"891030":      "Paulina",
+	"870406": "Michał",
+	"891030": "Paulina",
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
